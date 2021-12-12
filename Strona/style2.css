@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Source+Sans+Pro:wght@200&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+
+
+/*================ Menu ==================*/
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color:#FCB549;
+    color: #333;
+    line-height: 1.6;
+    
+}
+
+ul{
+
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color:#333;
+}
+
+header h1, h2{
+
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 10px 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+img{
+    width: 100%;
+}
+
+.navbar {
+    background-color: #E6954E;
+    color: #fff;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar a{
+    color: #fff;
+    padding: 10px;
+    margin: 0 5px;
+    font-size: 120%;
+}
+
+.navbar a:hover{
+    border-bottom: 2px #fff solid;
+}
+
+
+
+.navbar .flex{
+    justify-content: space-between;
+}
+
+
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+/*============================================ Baner =========================================*/
+.baner {
+
+height: 1080px;
+background-image: url("img/2001_space_oddisey.png");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+margin-bottom: 40px;
+}
+
+.divbaner{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/*============================================ Stopka =========================================*/
+
+.stopka{
+    display: flex;
+    background-color: #E6954E;
+    justify-content: space-evenly;
+    color: #fff;
+    font-size: 120%;
+    
+}
+
+
+/*============== Main ==============================*/
+
+main h4{
+    color:#fff;
+    font-size: 150%;
+   
+}
+
+
+main h3{
+    color:#fff;
+    font-weight: 500;
+    font-size: 200%;
+}
+
+main h2{
+    color:#fff;
+    font-size: 250%;
+
+    }
+
+main p{
+    color: #fff;
+    font-size: 140%;
+   
+}
+
+
+
+.oczym{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+.Strona{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: justify;
+}
+
+main ul li{
+    color:#fff;
+}
+
+main li{
+    list-style-type: square;
+    font-size: 140%;
+}
+
+
+.s_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.s_2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.s_3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+/*============================================ Baner =========================================*/
+.baner {
+
+    height: 1080px;
+    background-image: url("img/John_Wick_baner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 40px;
+    }
+    
+    .divbaner{
+        width: 100%;
+        height: 100%;
+    }
+    
+

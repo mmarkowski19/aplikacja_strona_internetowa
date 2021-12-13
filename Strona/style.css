@@ -175,6 +175,16 @@ main p{
     text-align: center;
 }  
 
+.Prawa_aut::before
+{
+	content:"© "; 
+}
+.Prawa_aut
+{
+	text-align:center;
+	font-size:14px;
+}
+
 /*====================================================*/
 
 

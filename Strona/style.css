@@ -121,6 +121,17 @@ margin-bottom: 40px;
 
 
 /*============== Main ==============================*/
+.Prawa_aut::before
+{
+	content:"© ";
+	color:white;
+}
+.Prawa_aut
+{
+	text-align:center;
+	font-size:14px;
+}
+
 main h3{
     color:#fff;
     font-size: 130%;
@@ -175,16 +186,7 @@ main p{
     text-align: center;
 }  
 
-.Prawa_aut::before
-{
-	content:"© ";
-	color:white;
-}
-.Prawa_aut
-{
-	text-align:center;
-	font-size:14px;
-}
+
 
 /*====================================================*/
 

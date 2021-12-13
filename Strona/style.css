@@ -177,7 +177,8 @@ main p{
 
 .Prawa_aut::before
 {
-	content:"© "; 
+	content:"© ";
+	color:white;
 }
 .Prawa_aut
 {

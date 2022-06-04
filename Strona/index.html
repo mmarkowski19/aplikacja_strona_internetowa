@@ -10,20 +10,22 @@
     <meta name="keywords"content="Kinomatografia, Filmy akcji, Filmy sci-fi, Forest Gump, The Shawshank Redemption, ciekawostki filmowe" />
     <meta name="description" content="Na stronie można znaleźć wiele ciekawostek dotyczących filmów i ich tworzenia. Strona przedstawia spis najciekawszych filmów z danych kategorii filmowych " />
     <meta name="robots" content="all" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="scss/style.css" />
 </head>
 <body>
-    
+
+
+
     <header>
         <div class="navbar">
-            <div class="container flex">
-                <h1 class="logo">Kinomatografia</h1>
-                <nav>
-                    <ul>
-                    <li><a href="index.html">Strona główna</a></li>
-                    <li><a href="index2.html">Filmy akcji</a></li>
-                    <li><a href="index3.html">Filmy sci-fi</a></li>
-                    <li><a href="index4.html">Dramaty i kryminały</a></li>
+            <div class="navbar__container">
+                <h1 class="navbar__logo">Kinomatografia</h1>
+                <nav class="menu">
+                    <ul class="menu__ul">
+                    <li class="menu__li"><a class="menu__a" href="index.html">Strona główna</a></li>
+                    <li class="menu__li"><a class="menu__a" href="index2.html">Filmy akcji</a></li>
+                    <li class="menu__li"><a class="menu__a" href="index3.html">Filmy sci-fi</a></li>
+                    <li class="menu__li"><a class="menu__a" href="index4.html">Dramaty i kryminały</a></li>
                     </ul>
                 </nav>
             </div>
@@ -31,52 +33,102 @@
         </nav>
     </header>
 
-    <div class="divbaner">
-    <div class="baner"></div>
+    <div class="baner">
+    <div class="baner__glowne"></div>
     </div>
         
-        <main class="oczym">
-            <h2>O czym jest strona?</h2>
-            <p class="wstep">Strona poświęcona jest treści związanej z kinomatografią. Na stronie, można odnaleźć interesujące pozycje z następujących gatunków filmowych: filmy akcji, film fantastycznonaukowy, dramaty i kryminały .  </p>
+        <main class="main">
+            <h2 class="main__h2">O czym jest strona?</h2>
+            <p class="main__p">Strona poświęcona jest treści związanej z kinomatografią. Na stronie, można odnaleźć interesujące pozycje z następujących gatunków filmowych: filmy akcji, film fantastycznonaukowy, dramaty i kryminały .  </p>
             
-            <div class="Stronaglowna">
-            <h2>Co można znaleźć na stronie?</h2>
-            <div class="kolejnosc">
-            <section class="a_1">
-                <h3>Ciekawostki o filmach</h3>
-                <p>W wielu kultowych filmach istnieje mnóstwo ciekawych szczegółów, których mogłeś nie dostrzec. Na tej stronie odnajdziesz je!</p>
+                <section class="section">
+                <h2 class="section__h2">Co można znaleźć na stronie?</h2>
+
+                <div class="section__kolejnosc">
+                <div class="section__information">
+                    <h3 class="section__h3">Ciekawostki o filmach</h3>
+                    <p class="section__p">W wielu kultowych filmach istnieje mnóstwo ciekawych szczegółów, których mogłeś nie dostrzec. Na tej stronie odnajdziesz je!</p>
+                </div>
+                <div class="section__information">
+                    <h3 class="section__h3">Propozycje filmowe</h3>
+                    <p class="section__p">Na stronie można odnaleźć propozycje filmów do obejrzenia. Filmy są poukładne według ich kategorii filmowych. Każdy z prezentowanych filmów, posiada krótki zarys fabuł.</p>
+                </div>
+                <div class="section__information">   
+                    <h3 class="section__h3">Kulisy powstawania filmów</h3>
+                    <p class="section__p">Na podstronach poświęconych danym filmom można także odnaleźć ciekawostki poświęcone kulisom ich powstawania.</p>
+                </div>
+            </div> 
             </section>
-            <section class="a_2">
-                <h3>Propozycje filmowe</h3>
-                <p>Na stronie można odnaleźć propozycje filmów do obejrzenia. Filmy są poukładne według ich kategorii filmowych. Każdy z prezentowanych filmów, posiada których zarys fabuł.</p>
-            </section>
-            <section class="a_3">   
-                <h3>Kulisy powstawania filmów</h3>
-                <p>Na podstronach poświęconych danym filmom można także odnaleźć ciekawostki poświęcone kulisom ich powstawania.</p>
-            </section>
-        </div> 
-        </div>
-        <p class="Prawa_aut">Część zawartości na stronie nie jest moją własnością i należy do ich prawowitych właścicieli.</p>
+      
+
+            <section class="categories">
+
+            <h3 class="categories__h2">Kategorie filmowe</h3>
+            <div class="categories__kolejnosc">
+            <article class="card">
+                <img class="card__img"src="/img/atomic.png" alt="Akcji" style="width:100%">
+                <div class="card__container">
+                  <h2 class="card__h2">Filmy akcji</h2>
+                  <p class="card__p">Rekomendowane do obejrzania filmy akcji. Znajdziesz tu ciekawostki z kulis ich powstawania a także krótkie opisy fabuł.  </p>
+                  <a href="index2.html" class="card__button">Przejdź</a>
+                </div>
+              </article>
+
+            <article class="card">
+                <img class="card__img"src="/img/BladeRunner2049.png" alt="sci-fi" style="width:100%">
+                <div class="card__container">
+                  <h2 class="card__h2">Filmy sci-fi</h2>
+                  <p class="card__p">Rekomendowane do obejrzania filmy sci-fi. Znajdziesz tu ciekawostki z kulis ich powstawania a także krótkie opisy fabuł.</p>
+                  <a href="index3.html" class="card__button">Przejdź</a>
+                </div>
+              </article>
+
+            <article class="card">
+                <img class="card__img"src="/img/Seven.png" alt="Dramaty i kryminały" style="width:100%">
+                <div class="card__container">
+                  <h2 class="card__h2">Dramaty i kryminały</h2>
+                  <p class="card__p">Rekomendowane do obejrzania dramaty i kryminały. Znajdziesz tu ciekawostki z kulis ich powstawania a także krótkie opisy fabuł.</p>
+                  <a href="index4.html" class="card__button">Przejdź</a>
+                </div>
+              </article>
+
+            </div>
+            <section>
+
         </main>
 
 
+
+    <p class="main__prawaut">© Część zawartości na stronie nie jest moją własnością i należy do ich prawowitych właścicieli.</p>
+
+
+        <button type="button" class="top" id="btn-back-to-top">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-up-square-fill" viewBox="0 0 16 16">
+                <path d="M2 16a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2zm6.5-4.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 1 0z"/>
+              </svg>
+        </button>
 
     
     <footer>
 
         <div class="stopka">
-            <div class="napis">
-            <p>Kinomatografia</p>
-            <p>Z pasją do Kinomatografi</p>
+            <div class="stopka__napis">
+            <p class="stopka__p">Kinomatografia</p>
+            <p class="stopka__p">Z pasją do Kinomatografi</p>
             </div>
-             <ul>
-                <li>Kontakt:</li>
-                <li>517 613 003</li>
-                <li>mati11markowski@gmail.com</li>
+             <ul class="stopka__ul">
+                <li class="stopka__li">Kontakt:</li>
+                <li class="stopka__li">517 613 003</li>
+                <li class="stopka__li">mati11markowski@gmail.com</li>
             </ul>
         </div>
 
     </footer>
 
+
+
+
+
+<script src="scripts.js"></script>
 </body>
 </html>

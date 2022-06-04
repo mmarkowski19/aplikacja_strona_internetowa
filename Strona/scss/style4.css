@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Source+Sans+Pro:wght@200&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+  overflow-y: scroll;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-y: scroll;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: #0D0507;
+  color: #333;
+  line-height: 1.6;
+}
+
+.navbar {
+  background-color: #D99B66;
+  color: #fff;
+  height: 70px;
+  position: fixed;
+  width: 100%;
+}
+.navbar__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 100%;
+  justify-content: space-between;
+  max-width: 1500px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 40px;
+}
+.navbar__logo {
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 10px 0;
+}
+
+.menu__ul {
+  list-style-type: none;
+  text-decoration: none;
+  display: flex;
+}
+.menu__a {
+  list-style-type: none;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  margin: 0 5px;
+  font-size: 120%;
+}
+.menu__a:hover {
+  border-bottom: 2px #fff solid;
+}
+
+.baner {
+  width: 100%;
+  height: 100%;
+}
+.baner__glowne {
+  height: 1080px;
+  min-height: 500px;
+  background-image: url("/img/Skazaninashawshank.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 40px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main__strona {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  text-align: justify;
+}
+.main__h2 {
+  color: #fff;
+  font-size: 250%;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section__ul {
+  color: #fff;
+}
+.section__li {
+  color: #fff;
+  list-style-type: square;
+  font-size: 140%;
+}
+.section__h4 {
+  color: #fff;
+  font-size: 150%;
+}
+.section__h3 {
+  color: #fff;
+  font-weight: 500;
+  font-size: 200%;
+}
+.section__p {
+  color: #fff;
+  font-size: 140%;
+}
+
+.stopka {
+  display: flex;
+  background-color: #F2CDAC;
+  justify-content: space-evenly;
+  color: #fff;
+  font-size: 120%;
+}
+.stopka__ul {
+  list-style-type: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+}
+.stopka__napis {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+}
+.stopka__p {
+  margin: 10px 0;
+}
+
+.top {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #D99B66;
+  color: #FFF;
+  border-radius: 50px;
+  border: none;
+  text-align: center;
+}/*# sourceMappingURL=style4.css.map */

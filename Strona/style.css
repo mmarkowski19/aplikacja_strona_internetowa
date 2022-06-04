@@ -9,6 +9,7 @@
 
 
 /*================ Menu ==================*/
+
 body{
     font-family: 'Source Sans Pro', sans-serif;
     background-color:#FCB549;
@@ -126,6 +127,7 @@ margin-bottom: 40px;
 	content:"© ";
 	color:white;
 }
+
 .Prawa_aut
 {
 	text-align:center;

@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Source+Sans+Pro:wght@200&display=swap');
+@import './resets';
+
+@mixin styleNone{
+
+    list-style-type: none;
+    text-decoration: none;
+}
+
+@mixin flexCenter($direction){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color:#205A8C;
+    color: #333;
+    line-height: 1.6;
+    
+}
+
+
+
+.navbar{
+    
+    background-color: #164059;
+    color: #fff;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+
+
+    &__container{
+
+    @include flexCenter(row);
+    height: 100%;
+    justify-content: space-between;
+    max-width: 1500px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+    }
+
+    &__logo{
+        font-weight: 300;
+        line-height: 1.2;
+        margin: 10px 0;
+    }
+
+
+}
+
+
+.menu{
+
+    &__ul{
+    @include styleNone;
+    display: flex;
+
+    }
+
+    &__a{
+        @include styleNone;
+        color: #fff;
+        padding: 10px;
+        margin: 0 5px;
+        font-size: 120%;
+    }
+
+    &__a:hover{
+        border-bottom: 2px #fff solid;
+    }
+    
+}
+
+
+
+
+
+.baner{
+
+    width: 100%;
+    height: 100%;
+    
+    &__glowne{
+    height: 1080px;
+    min-height: 500px; 
+    background-image: url("/img/Incepcja.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 40px;
+    }
+    
+}
+
+
+.main{
+
+    @include flexCenter(column);
+
+    &__strona{
+
+    @include flexCenter(column);
+    width: 50%;
+    text-align: justify;
+
+    }
+
+    &__h2{
+        color:#fff;
+        font-size: 250%;
+    
+        }
+
+
+}
+
+
+
+.section{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__ul{
+        color:#fff;
+    }
+
+    &__li{
+        color:#fff;
+        list-style-type: square;
+        font-size: 140%;
+    }
+
+    &__h4{
+        color:#fff;
+        font-size: 150%;
+       
+    }
+    
+    
+    &__h3{
+        color:#fff;
+        font-weight: 500;
+        font-size: 200%;
+    }
+
+    
+    &__p{
+        color: #fff;
+        font-size: 140%;
+       
+    }
+
+}
+
+
+
+.stopka{
+
+    display: flex;
+    background-color: #7AACBF;
+    justify-content: space-evenly;
+    color: #fff;
+    font-size: 120%;
+
+    &__ul{
+        @include styleNone;
+        @include flexCenter(row);
+        column-gap: 5px;
+    }
+
+    &__napis{
+        @include flexCenter(row);
+        column-gap: 5px;
+    }
+
+    &__p{
+        margin: 10px 0;
+    }
+    
+}
+
+
+.top{
+
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#164059;
+	color:#FFF;
+	border-radius:50px;
+    border: none;
+	text-align:center;
+    
+}

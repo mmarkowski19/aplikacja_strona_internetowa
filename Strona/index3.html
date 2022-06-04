@@ -10,20 +10,20 @@
     <meta name="keywords"content="Kinomatografia, Filmy akcji, Filmy sci-fi, Forest Gump, The Shawshank Redemption, ciekawostki filmowe" />
     <meta name="description" content="Na stronie można znaleźć wiele ciekawostek dotyczących filmów i ich tworzenia. Strona przedstawia spis najciekawszych filmów z danych kategorii filmowych " />
     <meta name="robots" content="all" />
-    <link rel="stylesheet" href="style3.css" />
+    <link rel="stylesheet" href="scss/style3.css" />
 </head>
 <body>
     
     <header>
         <div class="navbar">
-            <div class="container flex">
-                <h1 class="logo">Kinomatografia</h1>
-                <nav>
-                    <ul>
-                    <li><a href="index.html">Strona główna</a></li>
-                    <li><a href="index2.html">Filmy akcji</a></li>
-                    <li><a href="#">Filmy sci-fi</a></li>
-                    <li><a href="index4.html">Dramaty i kryminały</a></li>
+            <div class="navbar__container">
+                <h1 class="navbar__logo">Kinomatografia</h1>
+                <nav class="menu">
+                    <ul class="menu__ul">
+                    <li class="menu__li"><a class="menu__a" href="index.html">Strona główna</a></li>
+                    <li class="menu__li"><a class="menu__a" href="index2.html">Filmy akcji</a></li>
+                    <li class="menu__li"><a class="menu__a" href="index3.html">Filmy sci-fi</a></li>
+                    <li class="menu__li"><a class="menu__a" href="index4.html">Dramaty i kryminały</a></li>
                     </ul>
                 </nav>
             </div>
@@ -32,63 +32,62 @@
     </header>
 
   
-    <div class="divbaner">
-        <div class="baner"></div>
+    <div class="baner">
+        <div class="baner__glowne"></div>
     </div>
 
-
-    <main class="oczym">
-        <h2>Proponowane filmy sci-fi</h2>
-        <div class="Strona">
+    <main class="main">
+        <h2 class="main__h2">Proponowane filmy sci-fi</h2>
+        <div class="main__strona">
                 
-            <section class="s_1">
-                <h3>Incepcja</h3>
-                <h4>Krótki zarys fabuły</h4>
-                <p>Dom Cobb to specjalista zajmujący się wykradaniem informacji z ludzkich umysłów z użyciem zaawansowanej technologii wnikania do ludzkich snów. Dzięki umiejętnością znalazł się na szczycie hierarchii szpiegowskiej.
+            <section class="section">
+                <h3 class="section__h3">Incepcja</h3>
+                <h4 class="section__h4">Krótki zarys fabuły</h4>
+                <p class="section__p">Dom Cobb to specjalista zajmujący się wykradaniem informacji z ludzkich umysłów z użyciem zaawansowanej technologii wnikania do ludzkich snów. Dzięki umiejętnością znalazł się na szczycie hierarchii szpiegowskiej.
                     Niestety z tego względu został pozbawiony niemalże wszystkiego. Pozostała mu tylko jedna szansa na odkupienie win. Musi jedynie dokonać incepcji na japońskim biznesmenie.
                     Saito posiada doskonałą obronę, może się pochwalić wieloma wiernymi ludźmi, którzy zrobią wszystko, aby uchronić swojego lidera i zleceniodawcę. To spowoduje, że w umysłach i rzeczywistości, rozpocznie się prawdziwa wojna...</p>
-                <h4>Ciekawostki</h4>
-                <ul>
-                    <li>W scenie, kiedy Saito chroni Fishera przed ochroniarzami, klapa wentylacyjna jest raz otwarta, a raz zamknięta w przeciągu kilku następnych ujęć bez ingerencji bohaterów.</li>
-                    <li>Gdy Arthur odbiera Cobba w Tokio i razem udają się do helikoptera na dachu hotelu, jest noc. Jednak na dachu są już za dnia.</li>
-                    <li>W czasie sceny, w której Saito wsiada do helikoptera i informuje Cobba o planie incepcji, rzęsisty deszcz uderza w okno śmigłowca. W następnym ujęciu jednak deszczu nie widać.</li>
-                    <li>W scenie porwania taksówki z Fisherem na ulicy widoczne są liczne oznaczenia produkcyjne.</li>
+                <h4 class="section__h4">Ciekawostki</h4>
+                <ul class="section__ul">
+                    <li class="section__li">W scenie, kiedy Saito chroni Fishera przed ochroniarzami, klapa wentylacyjna jest raz otwarta, a raz zamknięta w przeciągu kilku następnych ujęć bez ingerencji bohaterów.</li>
+                    <li class="section__li">Gdy Arthur odbiera Cobba w Tokio i razem udają się do helikoptera na dachu hotelu, jest noc. Jednak na dachu są już za dnia.</li>
+                    <li class="section__li">W czasie sceny, w której Saito wsiada do helikoptera i informuje Cobba o planie incepcji, rzęsisty deszcz uderza w okno śmigłowca. W następnym ujęciu jednak deszczu nie widać.</li>
+                    <li class="section__li">W scenie porwania taksówki z Fisherem na ulicy widoczne są liczne oznaczenia produkcyjne.</li>
                 </ul>
-                <h4>Trailer</h4>
+                <h4 class="section__h4">Trailer</h4>
                 <iframe width="660" height="415" src="https://www.youtube.com/embed/66TuSJo4dZM" title="Incepcja" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   
             </section>
             <br>
             <br>
-            <section class="s_2">
-                <h3>Matrix</h3>
-                <h4>Krótki zarys fabuły</h4>
-                <p>Neo jest genialnym hakerem. Pewnego dnia nawiązuje z nim kontakt tajemniczy Morfeusz (Laurence Fishburne) - człowiek, który obiecuje przekazać mu wiedzę o rzeczywistości, w jakiej żyje. Prawdę o dwóch światach: prawdziwym i wygenerowanym, który ma tylko udawać rzeczywistość. Neo przystaje do grupy Morfeusza i zaczyna dostrzegać, że świat, w którym egzystował to fikcja, a jego życiem cały czas ktoś kierował. Kolejne stopnie wtajemniczenia stawiają przed Neo nowe pytania.</p>
-                <h4>Ciekawostki</h4>
-                <ul>
-                    <li>Zespół odpowiedzialny za efekty specjalne, był nadzorowany przez Johna Gaetę, pomysłodawcę efektu "Flow-Mo" (pokazujący aktorów zatrzymanych i jednocześnie unoszących się w powietrzu). Efekt ten można zauważyć już w pierwszej scenie z udziałem Trinity.</li>
-                    <li>Na wieżowcu, gdy Trinity wyciąga pistolet do agenta i mówi "Dodge this" ("Omiń to"), pistolet zamienia się na inny model.</li>
-                    <li>Przed rozpoczęciem zdjęć do filmu Keanu Reeves trenował kung-fu po 7 godzin dziennie.</li>
-                    <li>W scenie, w której Neo unika pocisków na dachu wieżowca, przed samym zwolnieniem tempa rzuca na ziemie Beretty. Gdy jednak zaczyna się spowolnione ujęcie, pistolety znikają, by pojawić się dwa ujęcia dalej, gdy Neo leży na ziemi z bólem kręgosłupa.</li>
-                    <li>Początkowo propozycję zagrania Neo otrzymał Will Smith. Ofertę jednak odrzucił i wybrał udział w filmie "Bardzo Dziki Zachód". W jednym z wywiadów powiedział, że Wachowscy pokazali mu jedynie fragment z kopnięciem w powietrzu z zatrzymaniem czasu i aktor był sceptycznie nastawiony do pomysłu nakręcenia produkcji opartej na tego typu efektach specjalnych. Kolejnymi kandydatami byli Leonardo DiCaprio (odrzucił propozycję), Ewan McGregor (wybrał rolę w filmie "Gwiezdne wojny: Część I - Mroczne Widmo") i David Duchovny (zdecydował się na udział w "Z archiwum X: Pokonać przyszłość"). Wachowscy chcieli też Johnny'ego Deppa, a studio Warner Bros Brada Pitta i Vala Kilmera.</li>
+            <section class="section">
+                <h3 class="section__h3">Matrix</h3>
+                <h4 class="section__h4">Krótki zarys fabuły</h4>
+                <p class="section__p">Neo jest genialnym hakerem. Pewnego dnia nawiązuje z nim kontakt tajemniczy Morfeusz (Laurence Fishburne) - człowiek, który obiecuje przekazać mu wiedzę o rzeczywistości, w jakiej żyje. Prawdę o dwóch światach: prawdziwym i wygenerowanym, który ma tylko udawać rzeczywistość. Neo przystaje do grupy Morfeusza i zaczyna dostrzegać, że świat, w którym egzystował to fikcja, a jego życiem cały czas ktoś kierował. Kolejne stopnie wtajemniczenia stawiają przed Neo nowe pytania.</p>
+                <h4 class="section__h4">Ciekawostki</h4>
+                <ul class="section__ul">
+                    <li class="section__li">Zespół odpowiedzialny za efekty specjalne, był nadzorowany przez Johna Gaetę, pomysłodawcę efektu "Flow-Mo" (pokazujący aktorów zatrzymanych i jednocześnie unoszących się w powietrzu). Efekt ten można zauważyć już w pierwszej scenie z udziałem Trinity.</li>
+                    <li class="section__li">Na wieżowcu, gdy Trinity wyciąga pistolet do agenta i mówi "Dodge this" ("Omiń to"), pistolet zamienia się na inny model.</li>
+                    <li class="section__li">Przed rozpoczęciem zdjęć do filmu Keanu Reeves trenował kung-fu po 7 godzin dziennie.</li>
+                    <li class="section__li">W scenie, w której Neo unika pocisków na dachu wieżowca, przed samym zwolnieniem tempa rzuca na ziemie Beretty. Gdy jednak zaczyna się spowolnione ujęcie, pistolety znikają, by pojawić się dwa ujęcia dalej, gdy Neo leży na ziemi z bólem kręgosłupa.</li>
+                    <li class="section__li">Początkowo propozycję zagrania Neo otrzymał Will Smith. Ofertę jednak odrzucił i wybrał udział w filmie "Bardzo Dziki Zachód". W jednym z wywiadów powiedział, że Wachowscy pokazali mu jedynie fragment z kopnięciem w powietrzu z zatrzymaniem czasu i aktor był sceptycznie nastawiony do pomysłu nakręcenia produkcji opartej na tego typu efektach specjalnych. Kolejnymi kandydatami byli Leonardo DiCaprio (odrzucił propozycję), Ewan McGregor (wybrał rolę w filmie "Gwiezdne wojny: Część I - Mroczne Widmo") i David Duchovny (zdecydował się na udział w "Z archiwum X: Pokonać przyszłość"). Wachowscy chcieli też Johnny'ego Deppa, a studio Warner Bros Brada Pitta i Vala Kilmera.</li>
                 </ul>
-                <h4>Trailer</h4>
+                <h4 class="section__h4">Trailer</h4>
                 <iframe width="660" height="415" src="https://www.youtube.com/embed/m8e-FF8MsqU" title="Matrix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </section>
             <br>
             <br>
-            <section class="s_3">
-                <h3>Interstellar</h3>
-                <h4>Krótki zarys fabuły</h4>
-                <p>Historia grupy badaczy, którzy dzięki nowo odkrytemu tunelowi czasoprzestrzennemu pokonują granice do tej pory przekraczające ludzkie możliwości podróżowania w innym wymiarze. Film oparty jest na teorii naukowej opracowanej przez fizyka z Caltech Kipa Thorne'a.</p>
-                <h4>Ciekawostki</h4>
-                    <ul>
-                    <li>Fizyk Kip Thorne, którego prace zainspirowały film, początkowo miał pojawić się na ekranie, grając samego siebie. Ostatecznie jednak zrezygnowano z tego pomysłu.</li>
-                    <li>W 2006 roku reżyserem oraz producentem filmu miał zostać Steven Spielberg..</li>
-                    <li>Kiedy Cooper wchodzi do pokoju Murph żeby się z nią pożegnać, jego zegarek pokazuje godzinę 9:00. Chwilę później, gdy oddaje go kobiecie, jest około 8:20.</li>
-                    <li>W jednej ze scen Cooper rysuje na tablicy schemat lądowania na planecie znajdującej się najbliżej czarnej dziury. Dwie sceny później rysunek jest już inny niż ten, który mogliśmy zobaczyć za pierwszym razem..</li>
-                    <li>Kiedy Cooper żegna się z synem i zamyka drzwi samochodu, możemy zauważyć odbijający się w lusterku mikrofon.</li>
+            <section class="section">
+                <h3 class="section__h3">Interstellar</h3>
+                <h4 class="section__h4">Krótki zarys fabuły</h4>
+                <p class="section__p">Historia grupy badaczy, którzy dzięki nowo odkrytemu tunelowi czasoprzestrzennemu pokonują granice do tej pory przekraczające ludzkie możliwości podróżowania w innym wymiarze. Film oparty jest na teorii naukowej opracowanej przez fizyka z Caltech Kipa Thorne'a.</p>
+                <h4 class="section__h4">Ciekawostki</h4>
+                    <ul class="section__ul">
+                    <li class="section__li">Fizyk Kip Thorne, którego prace zainspirowały film, początkowo miał pojawić się na ekranie, grając samego siebie. Ostatecznie jednak zrezygnowano z tego pomysłu.</li>
+                    <li class="section__li">W 2006 roku reżyserem oraz producentem filmu miał zostać Steven Spielberg..</li>
+                    <li class="section__li">Kiedy Cooper wchodzi do pokoju Murph żeby się z nią pożegnać, jego zegarek pokazuje godzinę 9:00. Chwilę później, gdy oddaje go kobiecie, jest około 8:20.</li>
+                    <li class="section__li">W jednej ze scen Cooper rysuje na tablicy schemat lądowania na planecie znajdującej się najbliżej czarnej dziury. Dwie sceny później rysunek jest już inny niż ten, który mogliśmy zobaczyć za pierwszym razem..</li>
+                    <li class="section__li">Kiedy Cooper żegna się z synem i zamyka drzwi samochodu, możemy zauważyć odbijający się w lusterku mikrofon.</li>
                     </ul>
-                <h4>Trailer</h4>
+                <h4 class="section__h4">Trailer</h4>
                 <iframe width="660" height="415" src="https://www.youtube.com/embed/zSWdZVtXT7E" title="Interstellar" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </section>
             </main>
@@ -97,24 +96,32 @@
             <br>
 
 
+    
+
+     <button type="button" class="top" id="btn-back-to-top">
+         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-up-square-fill" viewBox="0 0 16 16">
+            <path d="M2 16a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2zm6.5-4.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 1 0z"/>
+            </svg>
+    </button>
         
 
-    <footer>
+      <footer>
 
-        <div class="stopka">
-            <div class="napis">
-            <p>Kinomatografia</p>
-            <p>Z pasją do Kinomatografi</p>
+            <div class="stopka">
+               <div class="stopka__napis">
+                <p class="stopka__p">Kinomatografia</p>
+                <p class="stopka__p">Z pasją do Kinomatografi</p>
+                </div>
+                 <ul class="stopka__ul">
+                    <li class="stopka__li">Kontakt:</li>
+                    <li class="stopka__li">517 613 003</li>
+                    <li class="stopka__li">mati11markowski@gmail.com</li>
+                </ul>
             </div>
-             <ul>
-                <li>Kontakt:</li>
-                <li>517 613 003</li>
-                <li>mati11markowski@gmail.com</li>
-            </ul>
-        </div>
-
-    </footer>
+    
+        </footer>
 
 
+<script src="scripts.js"></script>       
 </body>
 </html>

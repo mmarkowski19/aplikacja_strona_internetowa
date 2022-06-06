@@ -1,0 +1,184 @@
+@import 'config';
+@import 'variables';
+
+
+@include media-xl {
+    .main{
+            
+        &__h2{
+            font-size: $size-h2;
+        }
+
+        &__p{
+            font-size: $size-p;
+        }
+    }
+
+
+    .section{
+
+        &__h2{
+            font-size: $size-h2;
+        }
+    
+        &__h3{
+            font-size: $size-h3;
+    
+        }
+    
+        &__p{
+            font-size: $size-p;
+        }
+
+
+    }
+
+    .categories{
+
+    &__h2{
+        font-size: $size-h2;
+
+    }
+
+}
+
+    .card{
+
+    &__h2{
+        font-size: $size-h2;
+    }
+
+    &__p{
+        font-size: $size-p;
+    }
+
+    &__img{
+        height: 50%;
+        width: 50%;
+    }
+
+    }
+
+
+    .stopka{
+        font-size: $size-stopka;
+    }
+
+}
+
+
+
+@include media-lg{
+    
+        .card{
+
+        &__h2{
+            font-size: 130%;
+        }
+    
+        &__p{
+            font-size: 100%;
+        }
+
+        &__img{
+            height: 30%;
+            width: 30%;
+        }
+    
+    }
+
+
+
+}
+
+
+
+
+@include media-sm {
+
+    .baner{
+
+        &__glowne{
+
+        
+        width: 900px;
+
+        }
+
+    }
+
+    .section{
+        
+        &__kolejnosc{
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+        }
+    }
+
+    .categories{
+        
+        &__kolejnosc{
+            display: flex; 
+            flex-direction: column;
+            row-gap: 10px;
+            align-items: center;
+
+    }
+
+        &__h2{
+            font-size: 150%;
+        }
+
+
+}
+
+    .card{
+        width: 300px; 
+    
+
+        &__h2{
+            font-size: 120%;
+        }
+
+        &__p{
+            font-size: 90%;
+        }
+    }
+
+
+    .main{
+            
+        &__h2{
+            font-size: 150%;
+        }
+
+        &__p{
+            font-size: 120%;
+        }
+    }
+
+
+    .section{
+
+        &__h2{
+            font-size: 140%;
+        }
+    
+        &__h3{
+            font-size: 110%;
+    
+        }
+    
+        &__p{
+            font-size: 120%;
+        }
+
+
+    }
+
+    .stopka{
+        font-size: 90%;
+    }
+
+}

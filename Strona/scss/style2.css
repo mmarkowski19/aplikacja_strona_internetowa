@@ -16,6 +16,69 @@ body {
   overflow-y: scroll;
 }
 
+@media screen and (max-width: 3000px) {
+  .main__h2 {
+    font-size: 250%;
+  }
+  .main__p {
+    font-size: 140%;
+  }
+
+  .section__h2 {
+    font-size: 250%;
+  }
+  .section__h3 {
+    font-size: 200%;
+  }
+  .section__h4 {
+    font-size: 150%;
+  }
+  .section__p {
+    font-size: 140%;
+  }
+  .section__li {
+    font-size: 140%;
+  }
+
+  .stopka {
+    font-size: 120%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .baner__glowne {
+    width: 900px;
+  }
+
+  .section__kolejnosc {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .main__h2 {
+    font-size: 150%;
+  }
+
+  .section__h2 {
+    font-size: 140%;
+  }
+  .section__h3 {
+    font-size: 120%;
+  }
+  .section__h4 {
+    font-size: 110%;
+  }
+  .section__p {
+    font-size: 100%;
+  }
+  .section__li {
+    font-size: 95%;
+  }
+
+  .stopka {
+    font-size: 90%;
+  }
+}
 body {
   font-family: "Source Sans Pro", sans-serif;
   background-color: #02000D;
@@ -96,7 +159,6 @@ body {
 }
 .main__h2 {
   color: #fff;
-  font-size: 250%;
 }
 
 .section {
@@ -110,20 +172,16 @@ body {
 .section__li {
   color: #fff;
   list-style-type: square;
-  font-size: 140%;
 }
 .section__h4 {
   color: #fff;
-  font-size: 150%;
 }
 .section__h3 {
   color: #fff;
   font-weight: 500;
-  font-size: 200%;
 }
 .section__p {
   color: #fff;
-  font-size: 140%;
 }
 
 .stopka {
@@ -131,7 +189,6 @@ body {
   background-color: #A67A76;
   justify-content: space-evenly;
   color: #fff;
-  font-size: 120%;
 }
 .stopka__ul {
   list-style-type: none;

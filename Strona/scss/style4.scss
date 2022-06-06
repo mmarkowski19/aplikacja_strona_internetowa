@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Source+Sans+Pro:wght@200&display=swap');
-@import './resets';
+@import 'resets';
+@import 'responsivesmovie';
 
 @mixin styleNone{
 
@@ -136,12 +137,11 @@ body{
     &__li{
         color:#fff;
         list-style-type: square;
-        font-size: 140%;
+       
     }
 
     &__h4{
-        color:#fff;
-        font-size: 150%;
+        color:#fff;    
        
     }
     
@@ -149,13 +149,12 @@ body{
     &__h3{
         color:#fff;
         font-weight: 500;
-        font-size: 200%;
+        
     }
 
     
     &__p{
         color: #fff;
-        font-size: 140%;
        
     }
 
@@ -169,7 +168,6 @@ body{
     background-color: #F2CDAC;
     justify-content: space-evenly;
     color: #fff;
-    font-size: 120%;
 
     &__ul{
         @include styleNone;

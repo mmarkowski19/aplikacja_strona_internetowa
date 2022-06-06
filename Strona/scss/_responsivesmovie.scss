@@ -1,0 +1,128 @@
+@import 'config';
+@import 'variables';
+
+
+@include media-xl {
+    .main{
+            
+        &__h2{
+            font-size: $size-h2;
+        }
+
+        &__p{
+            font-size: $size-p;
+        }
+    }
+
+    .section{
+
+        &__h2{
+            font-size: $size-h2;
+        }
+    
+        &__h3{
+            font-size: 200%;
+    
+        }
+
+        &__h4{
+            font-size: $size-h4;
+    
+        }
+    
+        &__p{
+            font-size: $size-p;
+        }
+
+        &__li{
+            font-size: 140%;
+        }
+
+
+
+    }
+
+
+    .stopka{
+        font-size: $size-stopka;
+    }
+
+}
+
+
+
+@include media-lg{
+    
+
+
+}
+
+
+
+
+
+
+@include media-sm {
+
+    .baner{
+
+        &__glowne{
+
+        
+            width: 900px;
+
+        }
+
+    }
+
+    .section{
+        
+        &__kolejnosc{
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+        }
+    }
+
+
+    .main{
+            
+        &__h2{
+            font-size: 150%;
+        }
+
+    }
+
+
+    .section{
+
+        &__h2{
+            font-size: 140%;
+        }
+    
+        &__h3{
+            font-size: 120%;
+    
+        }
+
+        &__h4{
+            font-size: 110%;
+    
+        }
+    
+        &__p{
+            font-size: 100%;
+        }
+
+        &__li{
+            font-size: 95%;
+        }
+
+
+    }
+
+    .stopka{
+        font-size: 90%;
+    }
+
+}
